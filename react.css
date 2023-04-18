@@ -1,0 +1,11 @@
+#root{
+  display: flex;
+  margin: 100px auto;
+  text-align: center;
+  justify-content: center;
+}
+.my-component{
+  border: solid 1px white;
+  border-radius: 0.5em;
+  padding: 15px;
+}
