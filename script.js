@@ -1,12 +1,14 @@
 function contarManzanas() {
   const frutas = ["🍐", "🍎", "🐌", "🍎", "🍊"];
   let totalManzanas = 0;
-  for (let i = 0; i++; i < frutas.length) {
+  for (let i = 0; i < frutas.length; i++) {
     if (frutas[i] === "🍎") totalManzanas++;
   }
+  return totalManzanas;
 }
-
+// copiamos la referencia
 const laFuncion = contarManzanas;
+// obtenemos el resultado (return) de la función
 const elResultado = contarManzanas();
 
 function mostrarManzanas() {
