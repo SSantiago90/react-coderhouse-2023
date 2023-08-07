@@ -17,5 +17,7 @@ function showComponent(parentTag, component) {
 }
 
 const miElement = createComponent("h1", "Hola Coder!", "main-title");
+const miElementh2 = createComponent("h2", "Soy un h2", "class-name");
 
 showComponent("nav", miElement);
+showComponent("body", miElementh2);

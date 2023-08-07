@@ -15,17 +15,14 @@
   </body>
 
   <script>    
-    const elementH1 = React.createElement("h1", { className: "my-title"}, "Hola Coder" );
+    const elementH1 = React.createElement("h1", { className: "my-title"}, "Hola Comision🤑" );
     const elementP = React.createElement("p", { className: "my-paragraph"}, "Este es mi primer React Element");
-
-    function MyComponent(){
-      const Component = React.createElement("div", { className: "my-component"}, [elementH1, elementP] )
-      return Component;
-    }
-
+    const Component = React.createElement("div", { className: "my-component"}, [elementH1, elementP] )
+    
     const container = document.getElementById('root');
     const root = ReactDOM.createRoot(container);
-    root.render(MyComponent());
+
+    root.render(Component);
 
   </script>
 </html>
